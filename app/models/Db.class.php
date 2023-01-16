@@ -13,7 +13,7 @@ class Db
         $this->hostName = "localhost";
         $this->userName = "root";
         $this->password = "";
-        $this->dbName = "";
+        $this->dbName = "taskboard";
 
         $conn = new mysqli(
             $this->hostName,
